@@ -1,0 +1,226 @@
+<div class="banner_oth" style="background-image: linear-gradient(-225deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 50%), url('<%= image_path "img_parallax2.jpg" %>');">
+  <div class="banner-content_oth">
+     <h1>Réalisations</h1>
+  </div>
+</div>
+
+<div class="container text-center padded features_tem">
+  <div class="row">
+
+    <div class="col-xs-12 col-sm-4">
+      <div data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="3000">
+        <img src="<%= image_path "web_design.jpg" %>">
+        <h2>Sites Web</h2>
+        <p></p>
+        <br><br />
+      </div>
+    </div>
+
+    <div class="col-xs-12 col-sm-4">
+      <div data-aos="zoom-in-down" data-aos-duration="3000">
+        <img src="<%= image_path "chatbot.jpg" %>">
+        <h2>ChatBots</h2>
+        <p></p>
+        <br><br />
+      </div>
+    </div>
+
+    <div class="col-xs-12 col-sm-4">
+      <div data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="3000">
+        <img src="<%= image_path "ecommerce.jpg" %>">
+        <h2>Plateformes</h2>
+        <p></p>
+        <br><br />
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="container text-center padded features">
+    <div class="row">
+      <div class="col-xs-12 col-sm-6 col-md-4">
+        <div data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+          <img src="<%= image_path "snowbot_desktop.gif" %>" alt="">
+          <!-- <h2>Cross Platforms Aggregator for Sharing Economy - Packs Builder, Payment module, APIs connectors</h2> -->
+          <h2>Aggrégateur Multi Plateformes de l'Economie Collaborative - Packs Builder, Module de Paiements, connecteurs d'APIs</h2>
+          <p></p>
+        <br><br />
+        </div>
+      </div>
+
+      <div class="col-xs-12 col-sm-6 col-md-4">
+        <div data-aos="zoom-in-down">
+          <img src="<%= image_path "TREEHOUSE.png" %>" alt="">
+          <!-- <h2>Airbnb like for Treehouses</h2> -->
+          <h2>Clone d'Airbnb pour une plateforme de cabanes dans les arbres Treehouses</h2>
+          <p></p>
+          <br><br />
+        </div>
+      </div>
+
+      <div class="col-xs-12 col-sm-6 col-md-4">
+        <div data-aos="zoom-in-down">
+          <img src="<%= image_path "cocktails.png" %>" alt="">
+        <!--   <h2>Cocktails Recipes Hub, Dynamic platform</h2> -->
+        <h2>Plateforme Dynamique de recettes de Cocktails</h2>
+          <p></p>
+          <br><br />
+        </div>
+      </div>
+
+    </div>
+
+    <div class="row">
+      <div class="col-xs-12 col-sm-6 col-md-4">
+        <div data-aos="fade-up-right">
+          <img src="<%= image_path "searching.png" %>" alt="">
+          <!-- <h2>Booking platforms, Geolocalization, Date Picker, Dashboard</h2> -->
+           <h2>Plateforme de Booking, Geolocalisation, Calendriers, Tableau de bord</h2>
+          <p></p>
+          <br><br />
+        </div>
+      </div>
+
+      <div class="col-xs-12 col-sm-6 col-md-4">
+        <div data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1000">
+          <img src="<%= image_path "lpm.gif" %>" alt="">
+          <!-- <h2>Customized Video Features for your website</h2> -->
+           <h2>Video animée pour présentation d'un service</h2>
+          <p></p>
+          <br><br />
+        </div>
+      </div>
+
+      <div class="col-xs-12 col-sm-6 col-md-4">
+        <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000">
+          <img src="<%= image_path "letitbeed.gif" %>" alt="">
+          <!-- <h2>Bidding Platform specialized in holidays rental with Countdown</h2> -->
+          <h2>Plateforme d'enchères specialisée dans la location de vacances, Compte à rebours</h2>
+          <p></p>
+          <br><br />
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+<div class="container text-center padded">
+  <div class="row">
+    <div class="col-xs-12">
+      <div data-aos="flip-up" data-aos-duration="1000">
+        <div data-toggle="modal" data-target="#myModal">
+          <a href="#myGallery" class=" galerie btn btn-info btn-lg"><h4>Voir dans une Galerie</h4>
+          </a>
+          <br>
+        </div>
+      </div>
+                        <!--begin modal window-->
+        <div class="modal fade" id="myModal">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <div class="pull-left"><h4>Nos dernières réalisations</h4></div>
+                <button type="button" class="close" data-dismiss="modal" title="Close">
+                  <span class="glyphicon glyphicon-remove"></span>
+                </button>
+              </div>
+              <div class="modal-body">
+
+              <!--begin carousel-->
+                <div id="myGallery" class="carousel slide" data-interval="false">
+                  <div class="carousel-inner">
+                    <div class="item active"><img src="<%= image_path "snowbot_desktop.gif" %>" alt="item0">
+                      <div class="carousel-caption">
+                        <h3></h3>
+                        <p></p>
+                      </div>
+                    </div>
+                    <div class="item"><img src="<%= image_path "TREEHOUSE.png" %>" alt="item1">
+                      <div class="carousel-caption">
+                        <h3></h3>
+                        <p></p>
+                      </div>
+                    </div>
+                    <div class="item"><img src="<%= image_path "cocktails.png" %>" alt="item2">
+                      <div class="carousel-caption">
+                        <h3></h3>
+                        <p></p>
+                      </div>
+                    </div>
+                    <div class="item"><img src="<%= image_path "searching.png" %>" alt="item2">
+                      <div class="carousel-caption">
+                        <h3></h3>
+                        <p></p>
+                      </div>
+                    </div>
+                    <div class="item"><img src="<%= image_path "lpm.gif" %>" alt="item2">
+                      <div class="carousel-caption">
+                        <h3></h3>
+                        <p></p>
+                      </div>
+                    </div>
+                    <div class="item"><img src="<%= image_path "letitbeed.gif" %>" alt="item2">
+                      <div class="carousel-caption">
+                        <h3></h3>
+                        <p></p>
+                      </div>
+                    </div>
+
+                  </div><!--end carousel-inner-->
+                    <!--Begin Previous and Next buttons-->
+                  <a class="left carousel-control" href="#myGallery" role="button" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a><a class="right carousel-control" href="#myGallery" role="button" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+                </div><!--end carousel-->
+
+              </div><!--end modal-body-->
+              <div class="modal-footer">
+                <div class="pull-left">
+                  <!-- <small>Photographs by <a href="https://placeimg.com" target="new">placeimg.com</a></small> -->
+                </div>
+                <button class="btn-sm close" type="button" data-dismiss="modal"></button>
+              </div><!--end modal-footer-->
+            </div><!--end modal-content-->
+          </div><!--end modal-dialoge-->
+        </div><!--end myModal-->
+      </div>
+    </div>
+  </div>
+<br>
+
+  <div class="container about text-center features">
+    <div class="row">
+      <div class="col-xs-12 col-sm-6 col-md-3">
+        <div data-aos="flip-right" data-aos-duration="500">
+          <img src="<%= image_path "recast.jpg" %>" alt="">
+        </div>
+    </div>
+    <div class="col-xs-12 col-sm-6 col-md-3">
+      <div data-aos="flip-right" data-aos-duration="1250">
+        <img src="<%= image_path "linkbynet.jpg" %>" alt="">
+      </div>
+    </div>
+    <div class="col-xs-12 col-sm-6 col-md-3">
+      <div data-aos="flip-right" data-aos-duration="2000">
+        <img src="<%= image_path "le-wagon-logo.png" %>" alt="">
+      </div>
+    </div>
+    <div class="col-xs-12 col-sm-6 col-md-3">
+      <div data-aos="flip-right" data-aos-duration="2750">
+        <img src="<%= image_path "FT_logo-04.jpg" %>" alt="">
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!--Bootstrap-->
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+<!--Latest stable release of jQuery Core Library-->
+<script src="https://code.jquery.com/jquery-1.12.2.min.js" integrity="sha256-lZFHibXzMHo3GGeehn1hudTAP3Sc0uKXBXAzHX1sjtk=" crossorigin="anonymous"></script>
+
+<!--Bootstrap JS-->
+<!-- <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js">
+</script> -->
+<link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+<script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>

@@ -1,0 +1,39 @@
+.about {
+  padding: 20px;
+}
+
+.about img {
+  width: 65%;
+  padding: 20px;
+}
+
+.features_abt img:hover {
+  // margin: 1px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  transition: all 0.5s ease;
+}
+
+body {
+  background: white;
+}
+
+.features_abt img {
+  width: 100%;
+  border-radius: 50%;
+  margin-top: 30px;
+  padding: 10px;
+}
+.features_abt h2 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.features_abt p {
+  font-size: 15px;
+  font-weight: lighter;
+}
+
+.social img {
+  width: 20%;
+  border-radius: 0%;
+margin-top: 0px;
+}

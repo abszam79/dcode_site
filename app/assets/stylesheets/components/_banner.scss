@@ -1,0 +1,112 @@
+.banner {
+  color: white;
+  text-align: center;
+  height: calc(100vh - 70px);
+  min-height: 300px;
+  /* if you have a 70px navbar => height: calc(100vh - 70px); */
+  background-size: cover !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  // position : relative
+}
+
+.banner-content {
+  // position: absolute;
+  padding-top: 70px;
+  align-items: center;
+  display: block;
+  justify-content: center;
+  width: 60%;
+  text-align: center;
+  color: white;
+}
+
+// .caption {
+
+  // align-items: center;
+  // width: 100%;
+  // text-align: center;
+  // display: block;
+  // justify-content: center;
+  // color: white;
+// }
+
+
+
+
+.banner-content h1 {
+  font-size: 50px;
+  font-weight: bold;
+  text-shadow: 0px 1px rgba(0, 0, 0, 1);
+}
+.banner-content p {
+  font-size: 25px;
+  font-weight: lighter;
+  color: rgb(255, 255, 255);
+  opacity: 1;
+  margin-bottom: 30px;
+}
+
+// .caption h1 {
+//   font-size: 50px;
+//   font-weight: bold;
+//   text-shadow: 0px 1px rgba(0, 0, 0, 1);
+// }
+// .caption p {
+//   font-size: 25px;
+//   font-weight: lighter;
+//   color: rgb(255, 255, 255);
+//   opacity: 1;
+//   margin-bottom: 30px;
+// }
+
+.banner h1 {
+  font-size: 50px;
+  font-weight: bold;
+  text-shadow: 0px 1px rgba(0, 0, 0, 0.2);
+}
+.banner p {
+  font-size: 25px;
+  font-weight: lighter;
+  color: rgb(255, 255, 255);
+  opacity: 0.6;
+  margin-bottom: 30px;
+}
+
+.banner_oth {
+  color: white;
+  text-align: center;
+  height: calc(100vh - 500px);
+  min-height: 300px;
+  /* if you have a 70px navbar => height: calc(100vh - 70px); */
+  background-size: cover !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner-content_oth {
+
+
+  padding-top: 70px;
+  align-items: center;
+  display: block;
+  justify-content: center;
+  width: 100%;
+  text-align: center;
+  color: white;
+}
+
+.banner_oth h1 {
+  font-size: 50px;
+  font-weight: bold;
+  text-shadow: 0px 1px rgba(0, 0, 0, 0.2);
+}
+.banner_oth p {
+  font-size: 25px;
+  font-weight: lighter;
+  color: rgb(255, 255, 255);
+  opacity: 0.6;
+  margin-bottom: 30px;
+}
