@@ -5,9 +5,9 @@ function loadDynamicBannerText() {
   if (bannerText) {
     new Typed('#banner-typed-text', {
       strings: [
-      "La nouvelle Agence Digitale...",
-      "Web et ...",
-      "Intelligence Artificielle..."],
+      "Want to go on vacation?...",
+      "Without robbing the bank? ...",
+      "We negotiate for you!"],
       typeSpeed: 100,
       loop: true
     });
