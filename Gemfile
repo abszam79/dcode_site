@@ -8,6 +8,7 @@ gem 'pg'
 gem 'puma'
 gem 'rails', '5.1.4'
 gem 'redis'
+gem 'omniauth-facebook'
 
 gem 'autoprefixer-rails'
 gem 'bootstrap-sass'
@@ -19,6 +20,7 @@ gem 'mail_form'
 gem 'uglifier'
 gem 'webpacker'
 gem "geocoder"
+
 
 group :development do
   gem 'web-console', '>= 3.3.0'
