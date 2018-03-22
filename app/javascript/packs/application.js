@@ -19,7 +19,7 @@ import { loadDynamicBannerText } from '../components/banner';
 import '../components/numscroller-1.0';
 import '../components/modal.js';
 import '../components/carousel.js';
-
+import '../components/tabs';
 
 
 
