@@ -1,4 +1,4 @@
-<div class="banner_oth" style="background-image: linear-gradient(-225deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 50%), url('<%= image_path "team.jpg" %>');">
+<div class="banner_oth" style="background-image: linear-gradient(-225deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 50%), url('<%= image_path "sea.jpg" %>');">
   <div class="banner-content_oth">
      <h1>Mon Compte</h1>
   </div>
@@ -73,115 +73,107 @@
 <div class="container">
   <div class="row">
 
-    <div class="dashboard dashboard-light bg-faded">
+    <div class="dashboard dashboard-light">
       <ul class="dash dashboard-dash">
-        <a class="dash-item dash-link active" data-toggle="tab" href="#start">Mon abonnement</a>
-        <a class="dash-item dash-link" data-toggle="tab" href="#form">Mes vacances</a>
-        <a class="dash-item dash-link" data-toggle="tab" href="#status">Mes infos</a>
+        <a class="dash-item dash-link active col-xs-12 col-sm-4" data-toggle="tab" href="#start">Mon abonnement</a>
+        <a class="dash-item dash-link col-xs-12 col-sm-4" data-toggle="tab" href="#form">Mes vacances</a>
+        <a class="dash-item dash-link col-xs-12 col-sm-4" data-toggle="tab" href="#status">Mes infos</a>
     <!--     <a class="dash-item dash-link" data-toggle="tab" href="#reports">Reports</a> -->
       </ul>
     </div>
-
+<br><br>
 <div class="tab-content">
-  <div class="tab-pane active" id="start">
-        <div class="inbox-subscriptions" id="subscriptions">
 
-      <ul class="inbox">
-          <li>
-            <div class="name">
-              <img src="https://kitt.lewagon.com/placeholder/users/abeghin" class="avatar_sm"><h6>Amael Béghin Stein</h6>
-            </div>
-          </li>
-          <br>
-          <li>
-            <div class="subscription">
-              <h6>Mon forfait actuel :</h6><h6>99€ - 50 URLs - 1 an</h6>
-            </div>
-          </li>
-          <br>
-          <li>
-            <div class="change-subscription">
-              <h6>Changer de forfait</h6>
-            </div>
-          </li>
-      </ul>
+  <div class="tab-pane active" id="start">
+    <div class="inbox-subscriptions" id="subscriptions">
+
+      <div class="row col-xs-12 col-sm-4">
+        <div class="name">
+          <img src="https://kitt.lewagon.com/placeholder/users/abeghin" class="avatar_sm">
+            <br><br>
+          <h4>Amael Béghin Stein</h4><br>
+        </div>
+      </div>
+
+      <div class="row col-xs-12 col-sm-4">
+        <div class="subscription">
+          <h6>Mon forfait actuel :</h6><h6>99€ - 50 URLs - 1 an</h6>
+        </div>
+      </div>
+
+      <div class="row col-xs-12 col-sm-4">
+        <div class="change-subscription">
+          <a href="#" class="btn btn-primary">Changer de forfait</a>
+        </div>
+      </div>
 
     </div>
   </div>
+
+<br><br>
   <div class="tab-pane" id="form">
     <div class="inbox-holidays" id="holidays">
-      <ul class="inbox">
-        <li>
+       <div class="row">
+        <div class="col-xs-12 col-sm-4">
           <div class="holidays-dates">
-            <h6>Mes prochaines dates de vacances : </h6>
+            <h6>Mes prochaines dates de vacances:</h6><h6>20/04/18 au 27/04/18</h6>
           </div>
-        </li>
-        <br>
-        <li>
+        </div>
+        <div class="col-xs-12 col-sm-4">
           <div class="holidays-location">
-            <h6>Lieux :</h6>
+            <h6>Lieux:</h6><h6>Nice 06000 FR</h6>
           </div>
-        </li>
-        <br>
-        <li>
+        </div>
+        <div class="col-xs-12 col-sm-4">
           <div class="holidays-budget">
-            <h6>Mon budget :</h6>
+            <h6>Mon budget:</h6><h6>1000€</h6>
           </div>
-        </li>
-        <br>
-        <li>
+        </div>
+      </div>
+      <br><br>
+      <div class="row">
+        <div class="col-xs-12 col-sm-4">
           <div class="holidays-guests">
-            <h6>Nombre de participants </h6>
-          <div>
-        </li>
-        <br>
-        <li>
-          <div class="housing-type">
-            <h6>Type de logement</h6>
+            <h6>Nombre de participants:</h6><h6>4</h6>
           </div>
-        </li>
-
-
-      </ul>
+        </div>
+        <div class="col-xs-12 col-sm-4">
+          <div class="housing-type">
+            <h6>Type de logement:</h6><h6>Appartement</h6>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
-  <div class="tab-pane" id="status">
-    <div class="inbox-infos" id="infoss">
-      <ul class="inbox">
-        <li>
-          <img src="https://kitt.lewagon.com/placeholder/users/abeghin" class="avatar_sm">
-          <br>
-          <div class="name">
-            <br>
-            <h6>Amael Béghin Stein</h6>
-          </div>
-        </li>
-        <br>
-        <li>
-          <div class="birthdate">
-            <h6>Date de naissance :</h6>
-          </div>
-        </li>
-        <br>
-        <li>
-          <div class="city">
-            <h6>Ma ville de résidence :</h6>
-          </div>
-        </li>
-        <br>
-        <li>
-          <div class="family-nb">
-            <h6>Composition familiale :</h6>
-          </div>
-        </li>
-        <br>
-        <li>
-          <div class="email">
-            <h6>Email :</h6>
-          </div>
-        </li>
 
-      </ul>
+
+  <div class="tab-pane" id="status">
+    <div class="inbox-infos" id="infos">
+      <div class="row">
+        <div class="col-xs-12 col-sm-4">
+          <div class="birthdate">
+            <h6>Date de naissance:</h6><h6>12/04/1985</h6>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-4">
+          <div class="city">
+            <h6>Ma ville de résidence:</h6> <h6>Paris</h6>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-4">
+          <div class="family-nb">
+            <h6>Composition familiale:</h6><h6>4</h6>
+          </div>
+        </div>
+      </div>
+      <br><br>
+      <div class="row">
+        <div class="col-xs-12 col-sm-4">
+          <div class="email">
+            <h6>Email:</h6><h6>amael@mail.com</h6>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 <!--   <div class="tab-pane" id="reports">4</div> -->

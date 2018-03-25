@@ -151,17 +151,43 @@ h4{
   height: 50px;
 }
 // ---------------
-.subscription {
+// .subscription {
+//   display: flex;
+//   justify-content: space-around;
+//   align-items: center;
+// }
+
+// .name {
+//   display: flex;
+//   justify-content: space-between;
+// }
+
+// .change-subscription {
+//    display: flex;
+//   justify-content: space-around;
+//   align-items: center;
+// }
+
+.inbox-subscriptions {
+  padding: 25px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  align-items: center;
+
 }
 
-.name {
+.inbox-holidays {
+  padding: 25px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  align-items: center;
+
 }
 
-.change-subscription {
-   display: flex;
-  justify-content: space-between;
+.inbox-infos {
+  padding: 25px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
 }
