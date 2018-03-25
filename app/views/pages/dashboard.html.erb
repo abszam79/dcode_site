@@ -4,38 +4,33 @@
   </div>
 </div>
 
-
+<!--
 
 <div class="container">
 
   <div class="tabs">
-    <a href="#" class="guest tab tab-guest active">Abonnement</a>
-    <a href="#" class="host tab tab-host">Mes vacances</a>
-    <a href="#" class="host tab tab-host">Mes infos</a>
+    <a href="#" class="subscription tab tab-subscriptions active">Forfaits</a>
+    <a href="#" class="holidays tab tab-holidays">Mes vacances</a>
+    <a href="#" class="infos tab tab-infos">Mes infos</a>
   </div>
 
   <div class="row">
-    <div class="inbox-guest" id="guest">
+    <div class="inbox-subscriptions" id="subscriptions">
       <ul class="inbox">
 
         <li class="message">
-          <!-- Code your message here -->
           <img src="https://kitt.lewagon.com/placeholder/users/abeghin" class="avatar_sm">
           <div class="message_name">
-
+            <h4>Amael</h4>
           </div>
           <div class="dates">
-            <h4>Check-In - Check-Out</h4>
-
+            <h4>Mon forfait actuel : </h4>
           </div>
-          <div class="guests">
-            <h4>Guests number</h4>
-
+          <div class="subscriptions">
+            <h4>100€ - 50 URLs - 1 an</h4>
           </div>
-          <div class="message_status text_greylight">
-            <h4 class="status text_greylight">
-
-
+          <div class="subscriptions">
+            <h4>Changer de forfait</h4>
           </div>
         </li>
 
@@ -44,41 +39,163 @@
   </div>
 
   <div class="row">
-    <div class="inbox-host" id="host">
+    <div class="inbox-holidays" id="holidays">
       <ul class="inbox">
-
         <li class="message">
-          <!-- <img src="https://kitt.lewagon.com/placeholder/users/lionel-k" class="avatar_sm"> -->
+          <img src="https://kitt.lewagon.com/placeholder/users/abeghin" class="avatar_sm">
           <div class="message_name">
-            <h2></h2>
-
+            <h2>Mes prochaines dates de vacances : </h2>
           </div>
-
           <div class="dates">
-            <h4>Check-In - Check-Out</h4>
-
+            <h4>Lieux :</h4>
           </div>
-
-          <div class="guests">
-            <h4>Guests number</h4>
-
+          <div class="holidays">
+            <h4>Mon budget :</h4>
           </div>
-
           <div class="message_status text_greylight">
             <h4 class="status text_greylight">
-
+              Nombre de participants
             </h4>
-
-
           </div>
-
           <div class="message_body">
-
+            <h4>Type de logement</h4>
           </div>
-
         </li>
 
       </ul>
     </div>
   </div>
 </div>
+
+ -->
+
+
+<div class="container">
+  <div class="row">
+
+    <div class="dashboard dashboard-light bg-faded">
+      <ul class="dash dashboard-dash">
+        <a class="dash-item dash-link active" data-toggle="tab" href="#start">Mon abonnement</a>
+        <a class="dash-item dash-link" data-toggle="tab" href="#form">Mes vacances</a>
+        <a class="dash-item dash-link" data-toggle="tab" href="#status">Mes infos</a>
+    <!--     <a class="dash-item dash-link" data-toggle="tab" href="#reports">Reports</a> -->
+      </ul>
+    </div>
+
+<div class="tab-content">
+  <div class="tab-pane active" id="start">
+        <div class="inbox-subscriptions" id="subscriptions">
+
+      <ul class="inbox">
+          <li>
+            <div class="name">
+              <img src="https://kitt.lewagon.com/placeholder/users/abeghin" class="avatar_sm"><h6>Amael Béghin Stein</h6>
+            </div>
+          </li>
+          <br>
+          <li>
+            <div class="subscription">
+              <h6>Mon forfait actuel :</h6><h6>99€ - 50 URLs - 1 an</h6>
+            </div>
+          </li>
+          <br>
+          <li>
+            <div class="change-subscription">
+              <h6>Changer de forfait</h6>
+            </div>
+          </li>
+      </ul>
+
+    </div>
+  </div>
+  <div class="tab-pane" id="form">
+    <div class="inbox-holidays" id="holidays">
+      <ul class="inbox">
+        <li>
+          <div class="holidays-dates">
+            <h6>Mes prochaines dates de vacances : </h6>
+          </div>
+        </li>
+        <br>
+        <li>
+          <div class="holidays-location">
+            <h6>Lieux :</h6>
+          </div>
+        </li>
+        <br>
+        <li>
+          <div class="holidays-budget">
+            <h6>Mon budget :</h6>
+          </div>
+        </li>
+        <br>
+        <li>
+          <div class="holidays-guests">
+            <h6>Nombre de participants </h6>
+          <div>
+        </li>
+        <br>
+        <li>
+          <div class="housing-type">
+            <h6>Type de logement</h6>
+          </div>
+        </li>
+
+
+      </ul>
+    </div>
+  </div>
+  <div class="tab-pane" id="status">
+    <div class="inbox-infos" id="infoss">
+      <ul class="inbox">
+        <li>
+          <img src="https://kitt.lewagon.com/placeholder/users/abeghin" class="avatar_sm">
+          <br>
+          <div class="name">
+            <br>
+            <h6>Amael Béghin Stein</h6>
+          </div>
+        </li>
+        <br>
+        <li>
+          <div class="birthdate">
+            <h6>Date de naissance :</h6>
+          </div>
+        </li>
+        <br>
+        <li>
+          <div class="city">
+            <h6>Ma ville de résidence :</h6>
+          </div>
+        </li>
+        <br>
+        <li>
+          <div class="family-nb">
+            <h6>Composition familiale :</h6>
+          </div>
+        </li>
+        <br>
+        <li>
+          <div class="email">
+            <h6>Email :</h6>
+          </div>
+        </li>
+
+      </ul>
+    </div>
+  </div>
+<!--   <div class="tab-pane" id="reports">4</div> -->
+</div>
+
+  </div>
+</div>
+
+<!-- jQuery and Bootstrap's JavaScript-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/js/bootstrap.min.js"></script>
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" rel="stylesheet">
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/latest/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/latest/respond.min.js"></script>
+    <![endif]-->

@@ -8,23 +8,23 @@ tabs.forEach(function(tab){
 });
 }
 
-const inbox = document.querySelector(".inbox-host");
+const inbox = document.querySelector(".inbox-holidays");
 if (inbox) {
-document.querySelector(".inbox-host").style.display = 'none';
+document.querySelector(".inbox-holidays").style.display = 'none';
 }
 
-const tabguest = document.querySelector(".tab-guest");
+const tabguest = document.querySelector(".tab-subscriptions");
 if (tabguest) {
-document.querySelector(".tab-guest").addEventListener("click", function(event) {
-  document.querySelector(".inbox-guest").style.display = 'block';
-  document.querySelector(".inbox-host").style.display = 'none';
+document.querySelector(".tab-subscriptions").addEventListener("click", function(event) {
+  document.querySelector(".inbox-subscriptions").style.display = 'block';
+  document.querySelector(".inbox-holidays").style.display = 'none';
 });
 }
 
-const tabhost = document.querySelector(".tab-host");
+const tabhost = document.querySelector(".tab-holidays");
 if (tabhost) {
-document.querySelector(".tab-host").addEventListener("click", function(event) {
-  document.querySelector(".inbox-guest").style.display = 'none';
-  document.querySelector(".inbox-host").style.display = 'block';
+document.querySelector(".tab-holidays").addEventListener("click", function(event) {
+  document.querySelector(".inbox-subscriptions").style.display = 'none';
+  document.querySelector(".inbox-holidays").style.display = 'block';
 });
 }
